@@ -1,28 +1,39 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <header-box />
+    <jumbotron-box />
+    <immagini-box />
+    <header-main />
+    <footer-box />
+    <header-footer-box />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import headerBox from './components/headerBox.vue'
+import jumbotronBox from './components/jumbotronBox.vue'
+import immaginiBox from './components/immaginiBox.vue'
+import headerMain from './components/headerMain.vue'
+import footerBox from './components/footerBox.vue'
+import headerFooterBox from './components/headerFooterBox.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+   headerBox,
+   jumbotronBox,
+   immaginiBox,
+   headerMain,
+   footerBox,
+   headerFooterBox,
   }
 }
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import './style/main.scss';
+
 </style>

@@ -59,7 +59,7 @@ header {
 
         li {
             //color: $text-color-gray-dark;
-            color: #333;
+            
             font-size: 12px;
             padding: 10px;
             cursor: pointer;
@@ -72,6 +72,7 @@ header {
 
             a {
                 text-decoration: none;
+                color: $text-color-gray-dark;
             }
         }
     }

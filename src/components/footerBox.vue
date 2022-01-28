@@ -79,6 +79,7 @@ footer {
         width: 1200px;
         display: flex;
 
+
         .nav-left {
             width: 60%;
             display: flex;
@@ -87,7 +88,7 @@ footer {
             
             .box-1 {
                 margin-left: 70px;
-                margin-top: 30px;
+                margin-top: 10px;
                 .title {
                     color: #fff;
                     margin-top: 20px;

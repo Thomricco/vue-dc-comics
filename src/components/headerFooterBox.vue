@@ -51,9 +51,9 @@ header {
     nav {
         width: 60%;
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
-        margin-right: 20px;
+        
         .follow {
             margin-top: 5px;
             color: rgb(41, 105, 224);

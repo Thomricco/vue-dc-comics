@@ -3,7 +3,7 @@
 
         <div class="box">
             <div class="button">CURRENT SERIES</div>
-            <div v-for="immagini in immagini" :key="immagini" class="box-immagini">
+            <div v-for="(immagini, index ) in immagini" :key="index" class="box-immagini">
                 <img :src="immagini.thumb" alt="" class="immagine">
                 <div class="text">{{immagini.series}}</div>
             </div>

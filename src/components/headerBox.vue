@@ -6,7 +6,7 @@
             </div>
             <nav>
                 <ul>
-                    <li v-for="nav in nav" :key="nav">
+                    <li v-for="nav in nav" :key="nav.id">
                         <a :href="nav.url">
                             {{nav.label}}
                         </a>
@@ -92,4 +92,4 @@ header {
 
 }
 
-</style>>
+</style>

@@ -16,8 +16,8 @@
                     </ul>
                     <div class="title">SHOP</div>
                     <ul>
-                        <li>d</li>
-                        <li>d</li>
+                        <li>Shop DC</li>
+                        <li>Shop DC Collectibles</li>
                     </ul>
                 </div>
                 <div class="box-1">

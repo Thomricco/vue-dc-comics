@@ -5,16 +5,13 @@
         </div>
         <nav>
             <ul>
-                <li>CHARACTERS</li>
-                <li>COMICS</li>
-                <li>MOVIES</li>
-                <li>TV</li>
-                <li>GAMES</li>
-                <li>COLLECTIBLES</li>
-                <li>VIDEOS</li>
-                <li>FANS</li>
-                <li>NEWS</li>
-                <li>SHOP</li>
+                <li v-for="nav in nav" :key="nav">
+                    <a :href="nav.url">
+                        {{nav.label}}
+                    </a>
+                    
+                </li>
+                
             </ul>
         </nav>
     </header>
@@ -22,12 +19,15 @@
 
 <script>
 export default {
+    props: {
+        nav: Array
+    }
     
 }
 </script>
 
 <style lang="scss" scoped>
-//@import './style/variablecolors.scss';
+@import '../style/variablecolors.scss';
 
 header {
     width: 1200px;
@@ -67,7 +67,11 @@ header {
             &:hover {
                 color: rgb(41, 105, 224);
                 padding-bottom: 7px;
-                border-bottom: 2px rgb(41, 105, 224) solid;
+                border-bottom: 2px $text-color-blue-clear solid;
+            }
+
+            a {
+                text-decoration: none;
             }
         }
     }

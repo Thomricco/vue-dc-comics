@@ -34,11 +34,11 @@ header {
         margin: 0 auto;
         display: flex;
         .bottone {
-        width: 40%;
-        display: flex;
-        justify-content: center;
-        margin-left: 20px;
-        
+            width: 40%;
+            display: flex;
+            justify-content: center;
+            padding-right: 50px;
+            
 
             .sing-up {
                 margin-top: 15px;
@@ -58,6 +58,7 @@ header {
             display: flex;
             justify-content: center;
             align-items: center;
+            padding-left: 150px;
             
             .follow {
                 margin-top: 5px;

@@ -61,8 +61,9 @@ export default {
 
             .img-box {
                 height: 50px;
-                margin-top: 50px;
+                margin-top: 45px;
                 display: flex;
+                padding: 7px;
                 
                 img {
                     height: 50px;

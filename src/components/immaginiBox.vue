@@ -30,13 +30,14 @@ export default {
     background-color: #333;
     
     .box {
-        width: 1200px;
+        width: 1000px;
         height: 600px;
         margin: 0 auto;
         //border: 1px #fff solid;
         position: relative;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         flex-wrap: wrap;
         .button {
@@ -61,7 +62,7 @@ export default {
             line-height: 40px;
         }
         .box-immagini {
-            margin: 20px;
+            margin: 5px;
            
             
 

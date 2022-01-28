@@ -84,6 +84,7 @@ footer {
             width: 60%;
             display: flex;
             justify-content: center;
+            padding-right: 30px;
             
             
             .box-1 {
@@ -108,6 +109,8 @@ footer {
         }
         .nav-right {
             width: 40%;
+            padding-left: 100px;
+            
             img {
                 width: 300px;
                 padding-bottom: 100px;

@@ -41,10 +41,12 @@ header {
         width: 1200px;
         margin: 0 auto;
         display: flex;
+        justify-content: center;
             .logo {
             width: 40%;
             display: flex;
             justify-content: center;
+            padding-right: 150px;
             
                 img {
                     margin-top: 10px;
@@ -56,6 +58,7 @@ header {
 
             nav {
                 width: 60%;
+                padding-right: 200px;
 
                 ul {
                 list-style: none;
